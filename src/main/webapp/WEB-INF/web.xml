@@ -29,6 +29,10 @@
 		<servlet-name>ExemploUmServices</servlet-name>
 		<url-pattern>/api/*</url-pattern>
 	</servlet-mapping>
+	
+	<listener>
+		<listener-class>com.luizcaciatori.exemploum.initialize.InitServletContextClass</listener-class>
+	</listener>
 
 	<welcome-file-list>
 		<welcome-file>index.html</welcome-file>
